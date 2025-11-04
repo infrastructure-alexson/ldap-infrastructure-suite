@@ -487,13 +487,14 @@ See [TROUBLESHOOTING.md](doc/TROUBLESHOOTING.md) for detailed troubleshooting gu
 
 ## Documentation
 
-- [Installation Guide](doc/INSTALLATION.md) - Complete installation instructions
-- [Architecture Guide](doc/ARCHITECTURE.md) - Detailed system architecture
-- [Configuration Guide](doc/CONFIGURATION.md) - All configuration options
-- [Operations Guide](doc/OPERATIONS.md) - Day-to-day operations
-- [Troubleshooting](doc/TROUBLESHOOTING.md) - Common issues and solutions
-- [Development Guide](doc/DEVELOPMENT.md) - Contributing to the project
-- [API Documentation](https://your-server/api/docs) - Interactive API docs
+- **[Product Roadmap](doc/ROADMAP.md)** - Feature roadmap and release timeline
+- [Installation Guide](doc/INSTALLATION.md) - Complete installation instructions (Coming Soon)
+- [Architecture Guide](doc/ARCHITECTURE.md) - Detailed system architecture (Coming Soon)
+- [Configuration Guide](doc/CONFIGURATION.md) - All configuration options (Coming Soon)
+- [Operations Guide](doc/OPERATIONS.md) - Day-to-day operations (Coming Soon)
+- [Troubleshooting](doc/TROUBLESHOOTING.md) - Common issues and solutions (Coming Soon)
+- [Development Guide](doc/DEVELOPMENT.md) - Contributing to the project (Coming Soon)
+- [API Documentation](https://your-server/api/docs) - Interactive API docs (Coming Soon)
 
 ---
 
@@ -528,31 +529,45 @@ Multi-tenant infrastructure for:
 
 ## Roadmap
 
-See [ROADMAP.md](doc/ROADMAP.md) for detailed feature roadmap.
+See [ROADMAP.md](doc/ROADMAP.md) for the complete feature roadmap.
 
-### v1.0.0 - Foundation (Q2 2026)
-- ✅ Docker Compose deployment
-- ✅ All core services integrated
-- ✅ Basic web management interface
-- ✅ Health checks and monitoring
+### v1.0.0 - Foundation (Q2 2026) 🏗️
+- Docker Compose deployment for full stack
+- Service integration and discovery
+- Custom container images (389 DS, Kea DHCP, BIND 9)
+- Web Manager integration
+- Monitoring and health checks
+- Complete documentation
+- Backup/restore automation
+- Container registry publication
 
-### v1.1.0 - Production Ready (Q3 2026)
-- Kubernetes manifests
-- Helm chart
-- Automated backups
-- Monitoring dashboards
+### v1.1.0 - Production Ready (Q3 2026) 🚀
+- Kubernetes manifests and Helm chart
+- Production HA configuration
+- Monitoring integration (Prometheus, Grafana)
+- Automated backups to object storage
+- Security hardening and RBAC
 
-### v1.2.0 - Enterprise Features (Q4 2026)
-- OpenShift support
-- High availability enhancements
-- GitOps integration
-- Advanced RBAC
+### v1.2.0 - Enterprise Features (Q4 2026) 🏢
+- OpenShift support with templates
+- GitOps integration (ArgoCD, Flux)
+- Multi-site deployment
+- Compliance and governance features
+- Advanced performance optimization
 
-### v2.0.0 - Cloud Native (2027)
-- Kubernetes Operator
-- Service mesh integration
-- Multi-cluster support
-- Cloud provider integration
+### v2.0.0 - Cloud Native (Q1 2027) ☁️
+- Kubernetes Operator for lifecycle management
+- Service mesh integration (Istio, Linkerd)
+- Cloud provider integration (AWS, Azure, GCP)
+- Multi-cluster and geographic distribution
+- AI-powered monitoring
+
+### v2.1.0+ - Advanced Features (2027+) 🤖
+- Advanced automation and self-healing
+- Workflow engine for provisioning
+- AI/ML for intelligent operations
+- Advanced networking (BGP, SD-WAN)
+- Edge computing and IoT integration
 
 ---
 
