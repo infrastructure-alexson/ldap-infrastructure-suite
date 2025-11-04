@@ -29,12 +29,12 @@ Navigate to: **Project Settings → Fields**
 - `v2.0.0` (Cloud Native)
 - `v2.1.0` (Advanced Automation)
 
-**Color Scheme**:
-- v1.0.0: Blue (#0366d6)
-- v1.1.0: Blue-green (#1d76db)
-- v1.2.0: Green (#2ea44f)
-- v2.0.0: Yellow (#fbca04)
-- v2.1.0: Purple (#d4c5f9)
+**Color Scheme** (use GitHub's built-in colors):
+- v1.0.0: Blue
+- v1.1.0: Green
+- v1.2.0: Purple
+- v2.0.0: Orange
+- v2.1.0: Pink
 
 ---
 
@@ -50,11 +50,11 @@ Navigate to: **Project Settings → Fields**
 - `Medium` - Standard priority
 - `Low` - Nice to have
 
-**Color Scheme**:
-- Critical: Red (#d73a4a)
-- High: Orange (#d93f0b)
-- Medium: Yellow (#fbca04)
-- Low: Gray (#6a737d)
+**Color Scheme** (use GitHub's built-in colors):
+- Critical: Red
+- High: Orange
+- Medium: Yellow
+- Low: Gray
 
 ---
 
@@ -74,15 +74,15 @@ Navigate to: **Project Settings → Fields**
 - `Infrastructure` - Docker Compose, Kubernetes, deployment
 - `Documentation` - Documentation and guides
 
-**Color Scheme**:
-- 389 DS: Blue (#2196F3)
-- Kea DHCP: Orange (#FF9800)
-- BIND 9: Purple (#9C27B0)
-- Web Manager: Green (#4CAF50)
-- PostgreSQL: Cyan (#00BCD4)
-- Redis: Red (#F44336)
-- Infrastructure: Teal (#009688)
-- Documentation: Gray (#607D8B)
+**Color Scheme** (use GitHub's built-in colors):
+- 389 DS: Blue
+- Kea DHCP: Orange
+- BIND 9: Purple
+- Web Manager: Green
+- PostgreSQL: Pink
+- Redis: Red
+- Infrastructure: Yellow
+- Documentation: Gray
 
 ---
 
