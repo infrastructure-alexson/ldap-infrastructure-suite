@@ -151,9 +151,8 @@ Navigate to: **Project → View dropdown → New view**
 
 **Configuration**:
 - **Group by**: Version
-- **Sort by**: Priority (High to Low), then Issue number
+- **Sort by**: Priority (High to Low), then Parent Issue
 - **Show**: All items
-- **Layout**: Cards
 
 **Use Case**: Track features across different releases, see version progress
 
@@ -167,8 +166,8 @@ Navigate to: **Project → View dropdown → New view**
 
 **Configuration**:
 - **Group by**: Priority
-- **Sort by**: Priority (Critical to Low), then Version, then Issue number
-- **Columns**: Issue, Status, Version, Component, Estimated Effort, Assignees
+- **Sort by**: Priority (Critical to Low), then Version, then Parent Issue
+- **Columns**: Title, Status, Version, Component, Estimated Effort, Assignees
 - **Show**: All items
 
 **Use Case**: Identify critical and high-priority items that need immediate attention
@@ -183,9 +182,8 @@ Navigate to: **Project → View dropdown → New view**
 
 **Configuration**:
 - **Group by**: Component
-- **Sort by**: Priority (High to Low), then Issue number
+- **Sort by**: Priority (High to Low), then Parent Issue
 - **Show**: All items
-- **Layout**: Cards
 
 **Use Case**: See all work related to specific components (e.g., all BIND 9 tasks)
 
@@ -200,7 +198,7 @@ Navigate to: **Project → View dropdown → New view**
 **Configuration**:
 - **Filter**: `version:v1.0.0`
 - **Sort by**: Priority (High to Low), then Estimated Effort (High to Low)
-- **Columns**: Issue, Status, Priority, Component, Estimated Effort, Iteration, Assignees
+- **Columns**: Title, Status, Priority, Component, Estimated Effort, Iteration, Assignees
 - **Show**: Filtered items only
 
 **Use Case**: Daily standup view, sprint planning, tracking current work
